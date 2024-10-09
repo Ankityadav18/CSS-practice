@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Table</title>
+    <style>
+      h1 {
+        color: crimson;
+      }
+    </style>
+  </head>
+  <body bgcolor="orange">
+    <h1>NESTED TABLE</h1>
+    <table
+      border="10px"
+      bgcolor="pink"
+      cellpadding="10px"
+      cellspacing="6px"
+      align="center"
+    >
+      <tr>
+        <td>id</td>
+        <td>
+          name
+          <table
+            border="10px"
+            bgcolor="yellow"
+            cellpadding="12px"
+            cellspacing="8px"
+          >
+            <tr>
+              <td colspan="2">aman</td>
+              <td>amit</td>
+            </tr>
+            <tr>
+              <td rowspan="2">sunny</td>
+              <td>abhishek</td>
+            </tr>
+            <tr>
+              <td>bittu</td>
+              <td>maggie</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+      <tr>
+        <td>1</td>
+        <td>Amardeep</td>
+      </tr>
+      <tr>
+        <td>2</td>
+        <td>Warner</td>
+      </tr>
+      <tr>
+        <td>3</td>
+        <td>
+          Virat Kohli
+          <table
+            bgcolor="white"
+            border="10px"
+            cellspacing="15px"
+            cellpadding="10px"
+          >
+            <tr>
+              <td>Sports Athlete</td>
+              <td>Sports Icon</td>
+            </tr>
+          </table>
+        </td>
+      </tr>
+    </table>
+  </body>
+</html>
